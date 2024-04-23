@@ -112,10 +112,10 @@ function generateTest() {
           <br>   
           <br>   
           <br>   
-          <h3>
+          </h3>
                   ${baseQuestions.map((q, index) => `<p><strong>//Question ${index + 1}</strong>: ${q}</p>`).join('')}
   
-          ${JSON.stringify(spriteAnimations)}
+          let spriteAnimations= ${JSON.stringify(spriteAnimations)}</p>
       `;
 	testQuestions.style.display = 'block';
 	// document.getElementById("fileInput").style.display = "block";
